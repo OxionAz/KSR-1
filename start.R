@@ -12,8 +12,7 @@ if (!file.exists("Data")) {
 
 saveRDS(wdPath, "Data/wdPath.RData")
 write.table(wdPath, "Data/wdPath.txt")
-
-
+write("Data/wdPath.txt", ".gitignore")
 
 # ------------ Some DS aRt
 
